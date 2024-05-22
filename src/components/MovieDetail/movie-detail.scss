@@ -1,0 +1,12 @@
+@import "../../common/color.scss";
+
+.movie-detail {
+  display: flex;
+  justify-content: space-between;
+  color: $font-primary;
+}
+
+.loader {
+  color: $font-primary;
+  text-align: center;
+}

@@ -1,0 +1,10 @@
+@import "../src/common/color.scss";
+
+.App {
+  background-color: #1a242f;
+  height: 100vh;
+}
+.inner-container {
+  padding: 70px 40px;
+  background-color: $secondary-color;
+}

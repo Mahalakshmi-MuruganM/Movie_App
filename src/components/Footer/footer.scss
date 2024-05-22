@@ -1,0 +1,12 @@
+@import "../../common/color.scss";
+
+.footer {
+  background-color: $primary-color;
+  color: $font-primary;
+  font-family: "Lemon", serif;
+  padding: 0 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}

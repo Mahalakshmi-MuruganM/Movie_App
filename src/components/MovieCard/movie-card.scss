@@ -1,0 +1,34 @@
+@import "../../common/color.scss";
+
+.movie-cards {
+  background-color: $primary-color;
+  cursor: pointer;
+  padding-bottom: 10px;
+  transition: all 1s;
+  margin: 0 10px;
+  height: 400px;
+  padding: 10px;
+  &:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+  }
+  .card-top {
+    height: 300px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .card-info {
+    h4,
+    p {
+      margin: 5px 0;
+      color: $font-primary;
+    }
+  }
+}
+
+.card-link {
+  text-decoration: none;
+}
